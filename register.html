@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>LMS - User Registration</title>
+    <link rel="shortcut icon" type="image/png" href="../images/newlogo.png">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@9/dist/sweetalert2.min.js"></script>
+  </head>
+  <body>
+
+  <div class="text-center p-5" style="background-color: #350663; color: #fff;">
+    <h1>LMS - User Registration</h1>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+      
+      </div>
+      <div class="col-md-4" style="margin-top:20px;">
+        <div class="card">
+          <div class="card-header" style="background-color: #350663; color: #fff;">User Registration</div>
+          <div class="card-body">
+            <form class="" action="" method="post">
+              <div class="form-group">
+                <input type="text" name="fullname" id="fullname" class="form-control " placeholder="Enter Full Name" required />
+                <span id="full_name" class="text-danger"></span>
+              </div>
+              <div class="form-group">
+                <input type="text" name="email" id="email" class="form-control " placeholder="Enter Email" required />
+                <span id="emails" class="text-danger"></span>
+              </div>
+              <div class="form-group">
+                <input type="text" name="mobile" id="mobile" class="form-control " placeholder="Enter Mobile Number" required />
+                <span id="mobile_number" class="text-danger"></span>
+              </div>
+              <div class="form-group">
+                <input type="password" name="password" id="password" class="form-control " placeholder="Enter Password" required />
+                <span id="passwords" class="text-danger"></span>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-block" value="" style="background-color: #350663; color: #fff;">Register</button>
+              </div>
+            </form>
+            <div>
+              <p class="text-center">Already have an account.<a href="login.html"> Login</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
